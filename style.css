@@ -131,12 +131,8 @@ a {
     width: 780px;
 }
 
-.quote p {
-    margin: 0px;
-}
-
 .quote-signature {
-    width: 780px;
+   width: 780px;
    font-size: 30px;
    font-weight: 500;
    align-self: end;
@@ -145,18 +141,24 @@ a {
 .smaller-text, a {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0px;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    background-color: #3882F6;
 }
 
 .signup {
     background-color: #3882F6;
 }
 
-.call-to-action {
-    background-color: #3882F6;
-}
-
-
+/* FOOTER */
 
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
