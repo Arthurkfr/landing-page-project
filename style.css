@@ -32,10 +32,6 @@ ul {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 /* HERO */
 .hero {
     background-color: #1F2937;
@@ -138,20 +134,41 @@ a {
    align-self: end;
 }
 
-.smaller-text, a {
-    font-size: 18px;
-    color: #E5E7EB;
-    margin: 0px;
-}
-
 /* CALL TO ACTION */
 
+.action-box {
+    background-color: #F9FAF8;
+    padding: 100px;
+    /* FLEX */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-to-action {
+    width: 900px;
     background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    /* FLEX */
+    display: flex;
+    justify-content: space-around;
 }
 
 .signup {
     background-color: #3882F6;
+}
+
+.action-span {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.actionbutton-div {
+    /* FLEX */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOTER */
@@ -161,4 +178,28 @@ a {
     color: #F9FAF8;
     text-align: center;
     padding: 30px;
+}
+
+/* GENERAL */
+
+.smaller-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 15px;
+    border: solid #F9FAF8 3px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #1e488c;
 }
