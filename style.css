@@ -68,6 +68,10 @@ ul {
     border: 5px black solid;
 }
 
+.hero-content button {
+    border-color: #3882F6;
+}
+
 /* INFO BOX */
 
 .info-box {
@@ -146,7 +150,7 @@ ul {
 }
 
 .call-to-action {
-    width: 900px;
+    width: 1000px;
     background-color: #3882F6;
     border-radius: 10px;
     padding: 50px;
@@ -195,9 +199,10 @@ a {
 button {
     font-size: 18px;
     color: #F9FAF8;
-    padding: 15px;
-    border: solid #F9FAF8 3px;
+    padding: 5px;
+    border: solid #F9FAF8 2px;
     border-radius: 10px;
+    width: 130px;
 }
 
 button:hover {
