@@ -56,6 +56,7 @@ ul {
 
 .hero-text p {
     margin: 0px;
+    font-weight: normal;
 }
 
 .hero-image {
@@ -75,13 +76,13 @@ ul {
 /* INFO BOX */
 
 .info-box {
-    text-align: center;
     padding: 100px;
     /* FLEX */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     flex: 1;
+    gap: 30px;
 }
 
 .info-box h2 {
